@@ -77,7 +77,7 @@ This application was created to solve several problems:
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/wallet-app.git
+git clone https://github.com/kzaklikiewicz/wallet-app.git
 cd wallet-app
 
 # Install dependencies
@@ -228,7 +228,7 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 ### Development Setup
 ```bash
 # Clone your fork
-git clone https://github.com/YOUR_USERNAME/wallet-app.git
+git clone https://github.com/kzaklikiewicz/wallet-app.git
 
 # Create virtual environment
 python -m venv venv
@@ -262,9 +262,9 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file
 
 ## 📞 Contact & Support
 
-- **Issues:** [GitHub Issues](https://github.com/YOUR_USERNAME/wallet-app/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/YOUR_USERNAME/wallet-app/discussions)
-- **Email:** your.email@example.com
+- **Issues:** [GitHub Issues](https://github.com/kzaklikiewicz/wallet-app/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/kzaklikiewicz/wallet-app/discussions)
+- **Email:** kamil.zaklikiewicz@gmail.com
 
 ---
 

@@ -248,7 +248,7 @@ Ten projekt jest licencjonowany na **Licencji MIT** - zobacz plik [LICENSE](LICE
 
 - **Problemy:** [GitHub Issues](https://github.com/kzaklikiewicz/wallet-app/issues)
 - **Dyskusje:** [GitHub Discussions](https://github.com/kzaklikiewicz/wallet-app/discussions)
-- **Email:** your.email@example.com
+- **Email:** kamil.zaklikiewicz@gmail.com
 
 ---
 

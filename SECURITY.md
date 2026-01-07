@@ -100,7 +100,7 @@ If you discover a security vulnerability, please:
 
 Instead:
 
-1. **Email:** [your.security@email.com]
+1. **Email:** [kamil.zaklikiewicz@gmail.com]
 2. **Subject:** "WALLET Security Vulnerability"
 3. **Include:**
    - Detailed description
@@ -208,8 +208,8 @@ Before deploying to production:
 
 ## 📞 Contact
 
-- **General Security Questions:** [GitHub Discussions](https://github.com/YOUR_USERNAME/wallet-app/discussions)
-- **Security Vulnerabilities:** [your.security@email.com]
+- **General Security Questions:** [GitHub Discussions](https://github.com/kzaklikiewicz/wallet-app/discussions)
+- **Security Vulnerabilities:** [kamil.zaklikiewicz@gmail.com]
 - **Project Maintainer:** [your.email@example.com]
 
 ---

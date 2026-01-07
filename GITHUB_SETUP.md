@@ -241,7 +241,7 @@ Alternatywnie - użyj **GitHub CLI** lub **GitHub Desktop** (łatwiejsze).
 ### W README.md zamień:
 ```markdown
 # BYŁO:
-[GitHub Issues](https://github.com/YOUR_USERNAME/wallet-app/issues)
+[GitHub Issues](https://github.com/kzaklikiewicz/wallet-app/issues)
 
 # ZMIEŃ NA:
 [GitHub Issues](https://github.com/TWOJA-NAZWA/wallet-app/issues)
@@ -249,7 +249,7 @@ Alternatywnie - użyj **GitHub CLI** lub **GitHub Desktop** (łatwiejsze).
 
 ### W LICENSE zamień:
 ```
-Copyright (c) 2026 [YOUR NAME]
+Copyright (c) 2026 [Kamil Zaklikiewicz]
 ↓
 Copyright (c) 2026 Twoje Imię Nazwisko
 ```
@@ -387,8 +387,8 @@ Przed publikacją upewnij się że:
 
 - [ ] `portfolio.db` NIE jest w repozytorium
 - [ ] Folder `Logs/` NIE jest w repozytorium
-- [ ] Zaktualizowałeś linki w README (YOUR_USERNAME → twoja nazwa)
-- [ ] Zaktualizowałeś LICENSE (YOUR NAME → twoje imię)
+- [ ] Zaktualizowałeś linki w README (kzaklikiewicz → twoja nazwa)
+- [ ] Zaktualizowałeś LICENSE (Kamil Zaklikiewicz → twoje imię)
 - [ ] Zaktualizowałeś email w CONTRIBUTING.md
 - [ ] Zaktualizowałeś email w SECURITY.md
 - [ ] Dodałeś zrzuty ekranu (opcjonalnie)

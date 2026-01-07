@@ -12,7 +12,7 @@ Thank you for considering contributing to WALLET! 🎉
 
 ### Reporting Bugs 🐛
 
-1. Check if the bug is already reported in [Issues](https://github.com/YOUR_USERNAME/wallet-app/issues)
+1. Check if the bug is already reported in [Issues](https://github.com/kzaklikiewicz/wallet-app/issues)
 2. If not, create a new issue with:
    - Clear title
    - Steps to reproduce
@@ -23,7 +23,7 @@ Thank you for considering contributing to WALLET! 🎉
 
 ### Suggesting Features 💡
 
-1. Check [Issues](https://github.com/YOUR_USERNAME/wallet-app/issues) and [Discussions](https://github.com/YOUR_USERNAME/wallet-app/discussions)
+1. Check [Issues](https://github.com/kzaklikiewicz/wallet-app/issues) and [Discussions](https://github.com/kzaklikiewicz/wallet-app/discussions)
 2. Open a new Discussion or Issue with:
    - Clear description of the feature
    - Use case / problem it solves
@@ -35,7 +35,7 @@ Thank you for considering contributing to WALLET! 🎉
 
 ```bash
 # Fork the repository on GitHub, then:
-git clone https://github.com/YOUR_USERNAME/wallet-app.git
+git clone https://github.com/kzaklikiewicz/wallet-app.git
 cd wallet-app
 ```
 
@@ -157,7 +157,7 @@ Currently, the project doesn't have automated tests (yet!). When contributing:
 If you discover a security vulnerability:
 
 1. **DO NOT** open a public issue
-2. Email the maintainer directly: [your.email@example.com]
+2. Email the maintainer directly: [kamil.zaklikiewicz@gmail.com]
 3. Include details, steps to reproduce, and potential impact
 
 ## 📝 Documentation
@@ -191,9 +191,9 @@ By contributing, you agree that your contributions will be licensed under the MI
 
 ## 🤔 Questions?
 
-- Open a [Discussion](https://github.com/YOUR_USERNAME/wallet-app/discussions)
-- Check existing [Issues](https://github.com/YOUR_USERNAME/wallet-app/issues)
-- Email: [your.email@example.com]
+- Open a [Discussion](https://github.com/kzaklikiewicz/wallet-app/discussions)
+- Check existing [Issues](https://github.com/kzaklikiewicz/wallet-app/issues)
+- Email: [kamil.zaklikiewicz@gmail.com]
 
 ## 👥 Code of Conduct
 

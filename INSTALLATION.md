@@ -238,7 +238,7 @@ pip freeze > my-requirements.txt
 
 Jeśli nadal masz problemy:
 
-1. **GitHub Issues:** https://github.com/YOUR_USERNAME/wallet-app/issues
+1. **GitHub Issues:** https://github.com/kzaklikiewicz/wallet-app/issues
 2. **Stack Overflow:** Tag `pyqt5` lub `python`
 3. **Python Discord:** https://discord.gg/python
 
