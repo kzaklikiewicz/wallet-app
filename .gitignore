@@ -1,0 +1,168 @@
+# WALLET App - .gitignore
+
+# ============================================================
+# DATABASE FILES (IMPORTANT!)
+# ============================================================
+portfolio.db
+portfolio.db-journal
+*.db
+*.db-shm
+*.db-wal
+
+# ============================================================
+# LOGS
+# ============================================================
+Logs/
+*.log
+Log_*.txt
+
+# ============================================================
+# PYTHON
+# ============================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# ============================================================
+# IDE
+# ============================================================
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Spyder
+.spyderproject
+.spyproject
+
+# ============================================================
+# OS SPECIFIC
+# ============================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# ============================================================
+# TEMPORARY FILES
+# ============================================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ============================================================
+# SENSITIVE DATA
+# ============================================================
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Config files with sensitive data (if any)
+config_local.py
+secrets.py
+.env
+.env.local
+
+# ============================================================
+# PROJECT SPECIFIC
+# ============================================================
+# Screenshots folder (optional - uncomment if needed)
+# screenshots/
+# docs/screenshots/
+
+# Test databases
+test_portfolio.db
+portfolio_test.db
+
+# Exports
+exports/
+backups/
+*.json.backup
+
+# ============================================================
+# COMPILED APPLICATION
+# ============================================================
+# If you build .exe with PyInstaller
+build/
+dist/
+*.exe
+
+# ============================================================
+# DOCUMENTATION BUILD
+# ============================================================
+docs/_build/
+site/

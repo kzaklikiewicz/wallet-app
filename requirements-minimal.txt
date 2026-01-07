@@ -1,0 +1,11 @@
+# WALLET App - Minimal Requirements
+# Quick install: pip install -r requirements-minimal.txt
+
+PyQt5>=5.15.0
+yfinance>=0.2.0
+pandas>=1.5.0
+numpy>=1.24.0
+requests>=2.28.0
+bcrypt>=4.0.0
+matplotlib>=3.7.0
+pywin32>=305; sys_platform == 'win32'

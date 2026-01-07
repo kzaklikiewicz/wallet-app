@@ -1,0 +1,15 @@
+# WALLET App - Pinned Requirements (Tested Versions)
+# These exact versions are tested and guaranteed to work
+# Install: pip install -r requirements-pinned.txt
+
+PyQt5==5.15.10
+yfinance==0.2.32
+pandas==2.1.4
+numpy==1.26.2
+requests==2.31.0
+bcrypt==4.1.2
+matplotlib==3.8.2
+pywin32==306; sys_platform == 'win32'
+
+# Note: These are the exact versions tested on 2026-01-07
+# They are guaranteed to work together without conflicts

@@ -1,0 +1,159 @@
+# ============================================================
+# WALLET - Portfolio & Budget Management App
+# Requirements File
+# ============================================================
+# Install all: pip install -r requirements.txt
+# ============================================================
+
+# ============================================================
+# CORE DEPENDENCIES (Required)
+# ============================================================
+
+# GUI Framework
+PyQt5>=5.15.0
+# Cross-platform GUI toolkit (Windows, Linux, macOS)
+
+# Market Data & Financial APIs
+yfinance>=0.2.0
+# Yahoo Finance API for real-time stock prices and data
+
+# Data Processing
+pandas>=1.5.0
+# Data manipulation and analysis (DataFrames, CSV handling)
+
+numpy>=1.24.0
+# Required by pandas and matplotlib (numerical operations)
+
+# HTTP Requests
+requests>=2.28.0
+# HTTP library for API calls and web scraping
+
+# ============================================================
+# SECURITY (Required)
+# ============================================================
+
+# Password Hashing
+bcrypt>=4.0.0
+# Secure password hashing (12 rounds = 4096 iterations)
+
+# ============================================================
+# DATA VISUALIZATION (Required for Budget & Media modules)
+# ============================================================
+
+# Plotting and Charts
+matplotlib>=3.7.0
+# 2D plotting library for budget and media charts
+
+# ============================================================
+# WINDOWS INTEGRATION (Optional - Windows only)
+# ============================================================
+
+# Windows API
+pywin32>=305; sys_platform == 'win32'
+# Windows lock detection (Win+L, Sleep, User Switch)
+# Automatically installs only on Windows systems
+
+# ============================================================
+# STANDARD LIBRARY (No installation needed)
+# ============================================================
+# sqlite3 - Database (included with Python)
+# datetime - Date/time operations (included with Python)
+# json - JSON encoding/decoding (included with Python)
+# logging - Logging system (included with Python)
+# threading - Multi-threading (included with Python)
+# csv - CSV file handling (included with Python)
+# os, sys, pathlib - System operations (included with Python)
+
+# ============================================================
+# OPTIONAL DEPENDENCIES (Not required but useful)
+# ============================================================
+
+# For better Excel export (optional)
+# openpyxl>=3.1.0
+# Uncomment if you want to export to Excel format
+
+# For database encryption (advanced users)
+# pysqlcipher3>=1.0.0
+# Uncomment if you want encrypted database
+
+# ============================================================
+# MINIMUM VERSIONS TESTED
+# ============================================================
+# Python: 3.8+
+# PyQt5: 5.15.0
+# yfinance: 0.2.0
+# pandas: 1.5.0
+# numpy: 1.24.0
+# requests: 2.28.0
+# bcrypt: 4.0.0
+# matplotlib: 3.7.0
+# pywin32: 305 (Windows only)
+
+# ============================================================
+# INSTALLATION INSTRUCTIONS
+# ============================================================
+
+# Standard installation:
+# pip install -r requirements.txt
+
+# With virtual environment (recommended):
+# python -m venv venv
+# venv\Scripts\activate  (Windows)
+# source venv/bin/activate  (Linux/Mac)
+# pip install -r requirements.txt
+
+# Upgrade all packages:
+# pip install -r requirements.txt --upgrade
+
+# ============================================================
+# TROUBLESHOOTING
+# ============================================================
+
+# If PyQt5 fails to install:
+# pip install PyQt5 --no-cache-dir
+
+# If pywin32 fails (Windows):
+# python -m pip install --upgrade pywin32
+
+# If matplotlib fails:
+# Install Microsoft C++ Build Tools first
+# https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
+# If numpy fails:
+# pip install numpy --upgrade
+
+# ============================================================
+# PLATFORM-SPECIFIC NOTES
+# ============================================================
+
+# Windows:
+# - All dependencies should install without issues
+# - pywin32 installs automatically for Windows lock detection
+
+# Linux:
+# - May need: sudo apt-get install python3-pyqt5
+# - May need: sudo apt-get install python3-tk
+
+# macOS:
+# - May need: brew install pyqt5
+# - matplotlib might need: brew install pkg-config
+
+# ============================================================
+# PACKAGE SIZES (Approximate)
+# ============================================================
+# PyQt5: ~50 MB
+# yfinance: ~2 MB
+# pandas: ~15 MB
+# numpy: ~20 MB
+# requests: ~500 KB
+# bcrypt: ~100 KB
+# matplotlib: ~30 MB
+# pywin32: ~10 MB (Windows only)
+# TOTAL: ~130 MB (without pywin32: ~120 MB)
+
+# ============================================================
+# VERSION HISTORY
+# ============================================================
+# 2026-01-07: v3.1.0 - Added matplotlib for charts
+# 2026-01-06: v3.0.0 - Added bcrypt for password security
+# 2026-01-05: v2.5.0 - Initial requirements file
